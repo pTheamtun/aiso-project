@@ -21,7 +21,7 @@ export default function Skills() {
         -----------------
         <ul>
           {skills.map((skill) => 
-          (<li>{skill}</li>))}
+          (<li key={skill}>{skill}</li>))}
         </ul>
 
       </main>

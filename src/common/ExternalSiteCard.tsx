@@ -14,7 +14,7 @@ const  ExternalSiteCard = (props: ExternalSiteCardProps) => {
         <a 
         href={props.siteUrl}
         target="_blank"
-        rel='noopener noreferer'
+        rel='noreferer'
         >
         <Image
         src={props.siteIcon}

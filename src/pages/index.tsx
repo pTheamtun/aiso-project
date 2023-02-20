@@ -40,7 +40,7 @@ export default function Home() {
         <h2>外部サイト</h2>
         <div>
           {externalSite.map((website) => 
-          <ExternalSiteCard
+          <ExternalSiteCard key={website.name}
           siteName='Discord'
           siteUrl='https://discord.gg/wJKU5QEG6w'
           siteIcon='/discord-logo-1-1.png' 
